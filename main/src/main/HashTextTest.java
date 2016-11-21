@@ -6,7 +6,7 @@ import java.security.NoSuchAlgorithmException;
 public class HashTextTest {
 
     public static void main(String[] args) throws NoSuchAlgorithmException {
-        System.out.println(sha1("Puerco araña, puerco araña... Al mal ataca con su telaraña."));
+        System.out.println(sha1(""));
     }
      
     static String sha1(String input) throws NoSuchAlgorithmException {
